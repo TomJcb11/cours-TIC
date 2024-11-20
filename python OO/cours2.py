@@ -25,8 +25,8 @@ for index, details in liste_de_fournitures.items():
 def update_unit_price(quantity, price, reductions):
     for qty, reduction in sorted(reductions.items(), reverse=True):
         if quantity >= qty:
-            return price * reduction
-    return price
+            return round(price * reduction, 2)
+    return round(price, 2)
 
 
 while action != "q":
@@ -48,19 +48,29 @@ while action != "q":
             price = details["unitPrice"]
             quantity = details["quantity"]
             if quantity > 0:
-                if item in commmande:
-                    commmande[item][1] += 1
+                qty_to_add = input(
+                    f" \n Combien de {item} voulez-vous ajouter à votre panier ? (max {quantity}) \n"
+                )
+                if qty_to_add.isdigit():
+                    qty_to_add = int(qty_to_add)
+                    if 0 < qty_to_add <= quantity:
+                        if item in commmande:
+                            commmande[item][1] += qty_to_add
+                        else:
+                            commmande[item] = [price, qty_to_add]
+                        liste_de_fournitures[index]["quantity"] -= qty_to_add
+                        updated_price = update_unit_price(
+                            commmande[item][1], price, tableeau_de_reduction
+                        )
+                        commmande[item][0] = updated_price
+                        total += round(updated_price * qty_to_add, 2)
+                        print(
+                            f" \n Vous avez ajouté {qty_to_add} {item} pour {round(updated_price * qty_to_add, 2)}€ à votre panier. \n pour consulter votre panier, veuillez entrer 'panier' \n \n"
+                        )
+                    else:
+                        print(" \n Quantité invalide.")
                 else:
-                    commmande[item] = [price, 1]
-                liste_de_fournitures[index]["quantity"] -= 1
-                updated_price = update_unit_price(
-                    commmande[item][1], price, tableeau_de_reduction
-                )
-                commmande[item][0] = updated_price
-                total += updated_price
-                print(
-                    f" \n Vous avez ajouté {item} pour {updated_price}€ à votre panier. \n pour consulter votre panier, veuillez entrer 'panier' \n \n"
-                )
+                    print(" \n Entrée invalide.")
             else:
                 print(f" \n Désolé, {item} est en rupture de stock.")
         else:
@@ -89,7 +99,7 @@ while action != "q":
                         if qty_to_remove.isdigit():
                             qty_to_remove = int(qty_to_remove)
                             if 0 < qty_to_remove <= quantity:
-                                total -= price * qty_to_remove
+                                total -= round(price * qty_to_remove, 2)
                                 liste_de_fournitures[
                                     [
                                         k
@@ -112,7 +122,7 @@ while action != "q":
                         else:
                             print(" \n Entrée invalide.")
                     else:
-                        total -= price * quantity
+                        total -= round(price * quantity, 2)
                         liste_de_fournitures[
                             [
                                 k
