@@ -28,11 +28,11 @@ class Animal:
 
     def vaccine(self):
         self.vaccine = True
-        print("Animal vaccinated")
+        print("Animal vaccinated \n")
 
     def return_animal(self):
         if self.vaccine:
             self.status = "out"
-            print("Animal realeased")
+            print("Animal realeased \n")
         else:
             print("Animal not ready to be realeased")

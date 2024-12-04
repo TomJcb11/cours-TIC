@@ -1,5 +1,7 @@
 import models.class_animal as ca
 
+from datetime import datetime
+
 texte = "Bonjour et bienvenue chez Veto-2000 la clinique vetérinaire du futur, ici vous pouvez \n - déposer votre animal pour une consultation (d) \n - vacciner votre animal (v) \n - retirer votre animal après consultation (r) \n - voir la liste des animaux présents (l) \n - quitter l'application (q)\n Que voulez-vous faire ? \n"
 
 action_available = ["d", "v", "r", "l", "q"]
@@ -17,7 +19,10 @@ while input_action != "q":
     elif input_action == "d":
         name = input("Nom de l'animal: ")
         species = input("Espèce de l'animal: ")
-        birthdate = input("Date de naissance de l'animal: ")
+        birthdate = datetime.strptime(
+            input("Date de naissance de l'animal (YYYY-MM-DD): "),
+            "%Y-%m-%d",  # on bind la date à un format date
+        )
         color = input("Couleur de l'animal: ")
         weight = input("Poids de l'animal: ")
         new_animal = ca.Animal(name, species, birthdate, color, weight)
