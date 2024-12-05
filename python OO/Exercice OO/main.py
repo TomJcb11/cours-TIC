@@ -71,7 +71,10 @@ while choix:
                     input("Date de naissance du soigneur (YYYY-MM-DD): "),
                     "%Y-%m-%d",  # on bind la date à un format date
                 )
-                print(f"Date de naissance valide : {birthdate}")
+                print(
+                    f"Date de naissance valide : {birthdate}, vous avez donc {datetime.now().year - birthdate.year} ans"
+                )
+
             except ValueError:
                 print(
                     "Format de date invalide. Veuillez entrer la date au format YYYY-MM-DD."

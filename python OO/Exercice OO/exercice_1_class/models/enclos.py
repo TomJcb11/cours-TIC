@@ -1,4 +1,8 @@
 import time
+from models.elephant import Elephant
+from models.python import Python
+from models.girafe import Girafe
+from models.lion import Lion
 
 
 class Enclos:
@@ -44,9 +48,9 @@ class Enclos:
     def enlever_animal(self, animal):
         if animal in self.liste_animaux:
             self.liste_animaux.remove(animal)
-            print(f"{animal.nom} retiré de l'enclos 👋")
+            print(f"- {animal.nom} retiré de l'enclos , à la poubelle 👋")
         else:
-            print(f"{animal.nom} n'est pas présent dans l'enclos ❌")
+            print(f"- {animal.nom} n'est pas présent dans l'enclos ❌")
 
     def afficher_animaux(self):
         if self.liste_animaux:
@@ -57,6 +61,17 @@ class Enclos:
                     print(f"Nom             : {animal.nom}")
                     print(f"Satisfaction    : {animal.bonheur} / 100")
                     print(f"Appétit         : {animal.rassasier} / 100")
+                    print(f"Régime alimentaire : {animal.regime_alimentaire}")
+                    if isinstance(animal, Elephant):
+                        print(f"Taille oreilles : {animal.taille_oreilles}")
+                        print(f"Longueur défense : {animal.longueur_defense}")
+                    elif isinstance(animal, Girafe):
+                        print(f"Longueur du cou : {animal.longueur_du_cou}")
+                    elif isinstance(animal, Python):
+                        print(f"Longueur        : {animal.longueur}")
+                    elif isinstance(animal, Lion):
+                        print(f"Prédation       : {animal.predation}")
+
                     print("--------------------------")
                 else:
                     print("--------------------------")
@@ -70,11 +85,20 @@ class Enclos:
     def passer_un_jour(self):
         print("Passage d'une journée... 🌞")
         time.sleep(2)
+        print("Les résidents s'occupents comme ils peuvent : \n")
         for animal in self.liste_animaux:
+            if self.liste_animaux == []:
+                print("Game over")
+                return
+            # si on a plus d'animaux dans l'enclos on arrête le programme et on affiche game over:
             animal.diminuer_rassasier()
             animal.diminuer_bonheur()
+            animal.observer_environnement()
+
             if not animal.en_vie:
                 self.enlever_animal(animal)
                 time.sleep(2)
+        self.afficher_animaux()
+
         print("Journée terminée 🌙")
         time.sleep(1)

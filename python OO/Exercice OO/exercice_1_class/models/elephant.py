@@ -1,59 +1,65 @@
 import random
-from models.soigneur import Soigneur
+from models.animal import Animal
 
 
-class Elephant:
-    def __init__(self, nom="", soigneur=None):
-        self._nom = nom
-        self._rassasier = 100
-        self._bonheur = 100
-        self._en_vie = True
-        self._soigneur = soigneur if soigneur else Soigneur()
+class Elephant(Animal):
+    def __init__(
+        self,
+        nom="",
+        soigneur=None,
+        taille_oreilles=105,
+        longueur_defense=90,
+        regime_alimentaire="Herbivore",
+    ):
+        super().__init__(
+            nom=nom, soigneur=soigneur, regime_alimentaire=regime_alimentaire
+        )
+        self.taille_oreilles = taille_oreilles
+        self.longueur_defense = longueur_defense
 
-    @property
-    def nom(self):
-        return self._nom
+    def afficher_info(self):
+        super().afficher_info()
+        print(
+            f"- Taille des oreilles: {self.taille_oreilles} cm \n longueur des défense: {self.longueur_defense} cm"
+        )
 
-    @nom.setter
-    def nom(self, value):
-        self._nom = value
+    def prendre_bain_boue(self):
+        if self.en_vie:
+            print(f"- {self.nom} prend un bain de boue 🐘 ")
+            self.bonheur += 5
+            self.rassasier += 20
 
-    @property
-    def rassasier(self):
-        return self._rassasier
+    def aspirer_eau(self):
+        if self.en_vie:
+            print(f"{self.nom} aspire l'eau et recrache tout sur les visiteurs.")
+            self.bonheur += 20
 
-    @property
-    def bonheur(self):
-        return self._bonheur
+    def casser_defense(self):
+        if self.en_vie:
+            print(
+                f"{self.nom} à trop le seum parcequ'il a cassé une défense en jouant avec un arbre, mais quel con lui aussi ! "
+            )
+            self.bonheur -= 30
+            self.longueur_defense = 10
 
-    @property
-    def en_vie(self):
-        return self._en_vie
+    def observer_environnement(self):
+        random_action = random.randint(1, 20)
+        augmentation_defense = random.randint(5, 15)
+        self.longueur_defense += augmentation_defense
+        print(
+            f"- {self.nom} regarde les visiteurs et les enfants qui lui jettent des cacahuètes"
+        )
 
-    @property
-    def soigneur(self):
-        return self._soigneur
+        print(
+            f"- La longueur des défense de {self.nom} à encore augmenté aujourd'hui de {augmentation_defense} cm et on maintenant une longeur de {self.longueur_defense} cm"
+        )
+        if random_action <= 5:
+            self.prendre_bain_boue()
+            self.bonheur += 5
+        elif random_action <= 10:
+            self.aspirer_eau()
+            self.bonheur += 25
+        elif random_action >= 18:
+            self.casser_defense()
 
-    @soigneur.setter
-    def soigneur(self, value):
-        self._soigneur = value
-
-    def manger(self, nom_soigneur):
-        if nom_soigneur == self._soigneur.nom:
-            self._rassasier = 100
-            return True
-        else:
-            print(f"Le soigneur {nom_soigneur} n'est pas autorisé à nourrir {self.nom}")
-
-    def diminuer_rassasier(self):
-        self._rassasier -= random.randint(10, 30)
-        if self._rassasier <= 0:
-            self._en_vie = False
-            self._rassasier = 0
-            self._bonheur = 0
-            print(f"{self.nom} est mort de faim ☠️")
-
-    def diminuer_bonheur(self):
-        self._bonheur -= random.randint(10, 20)
-        if self._bonheur <= 0:
-            self._bonheur = 0
+        return super().observer_environnement()

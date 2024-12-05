@@ -1,3 +1,6 @@
+from datetime import datetime
+
+
 class Soigneur:
     def __init__(self, nom, date_naissance, experience, animal_list):
         self._nom = nom
@@ -30,6 +33,11 @@ class Soigneur:
             f"{i + 1}. {animal.name}" for i, animal in enumerate(self._animal_list)
         ])
         return animal_list_str
+
+    @property
+    def age(self):
+        birthdate = datetime.strptime(self._date_naissance, "%Y-%m-%d")
+        return datetime.now().year - birthdate.year
 
     def __str__(self):
         animal_list_str = self.find_animal_by_healer()

@@ -33,14 +33,20 @@ class App(customtkinter.CTk):
         self.logo_label.grid(row=0, column=0, padx=20, pady=(20, 10))
         self.sidebar_button_1 = customtkinter.CTkButton(
             self.sidebar_frame,
-            command=self.sidebar_button_event,
+            command=self.dialog_create_Animal,
             text="Enregistrer un Animal",
         )
         self.sidebar_button_1.grid(row=1, column=0, padx=20, pady=10)
         self.sidebar_button_2 = customtkinter.CTkButton(
             self.sidebar_frame,
-            command=self.sidebar_button_event,
+            command=self.open_input_dialog_event,
             text="Enregistrer un Soigneur",
+        )
+        self.sidebar_button_2.grid(row=2, column=0, padx=20, pady=10)
+        self.sidebar_button_5 = customtkinter.CTkButton(
+            self.sidebar_frame,
+            command=self.open_input_dialog_event,
+            text="Enregistrer un Enclos",
         )
         self.sidebar_button_2.grid(row=2, column=0, padx=20, pady=10)
         self.sidebar_button_3 = customtkinter.CTkButton(
@@ -48,7 +54,7 @@ class App(customtkinter.CTk):
             command=self.sidebar_button_event,
             text="Enregistrer un Enclos",
         )
-        self.sidebar_button_3.grid(row=3, column=0, padx=20, pady=10)
+        self.sidebar_button_5.grid(row=3, column=0, padx=20, pady=10)
         self.appearance_mode_label = customtkinter.CTkLabel(
             self.sidebar_frame, text="Appearance Mode:", anchor="w"
         )
@@ -255,6 +261,14 @@ class App(customtkinter.CTk):
 
     def sidebar_button_event(self):
         print("sidebar_button click")
+
+    def dialog_create_Animal(self):
+        dialog = customtkinter.CTkInputDialog(
+            title="Enregistrer un Animal",
+            text="Enter Animal name:",
+            text2="Enter Animal breed:",
+        )
+        print("CTkInputDialog:", dialog.get_input())
 
 
 if __name__ == "__main__":
