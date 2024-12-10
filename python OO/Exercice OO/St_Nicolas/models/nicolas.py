@@ -1,5 +1,5 @@
 from models.enfant import Child
-from models.cadeau import Gift
+from models.cadeaux import Gift
 from models.cadeau_special import Special_Gift
 
 
@@ -39,6 +39,17 @@ class GiftHandler:
                 return True
         return False
 
+    def find_gift_for_child(self, gift_value):
+        for gift in self._gift_list:
+            if not gift_value:
+                return "Pas de cadeaux pour lui, il mérite même pas un charbon"
+            for gift in self._gift_list:
+                a = min(gift_value - gift.value)
+            if gift.value == gift_value:
+                self.update_gift_stock(gift.name, 1)
+                return gift
+        return False
+
     def add_child_to_list(self, child):
         self._child_list.append(child)
 
@@ -50,5 +61,4 @@ class GiftHandler:
     def deal_to_child(self):
         for child in self._child_list:
             child.reward_level = child.may_have_gift()
-            while child.reward_level > self.gift_list[0].stock:
-                child.reward_level -= 1
+            self.find_gift_for_child(child.reward_level)
