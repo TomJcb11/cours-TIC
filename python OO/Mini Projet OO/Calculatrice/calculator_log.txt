@@ -1,0 +1,10 @@
+9 puissance 3 = 729
+16 racine 4 = 4.0
+1 addition 2 = Erreur: unsupported operand type(s) for +: 'int' and 'str'
+1 unknown_method 2 = Erreur: Méthode inconnue
+1 addition 2 = 3
+1 addition 2 = 3
+1 soustraction 2 = -1
+1 multiplication 2 = 2
+1 division 2 = 0.5
+4 division 0 = Erreur: Division par zéro

@@ -1,0 +1,4 @@
+5 division 8 = Erreur: unsupported operand type(s) for -: 'str' and 'str'
+8.0 puissance 5.0 = 32768.0
+7.0 addition 9.0 = 16.0
+8.987 addition 2.0 = 10.987
