@@ -1,0 +1,10 @@
+
+crdts = credits value of course
+dates = dates of test of student for a course
+first_name = first name of student
+id_course = identifier of course
+id_st = identifier of student
+last_name = last name of student
+lst_scores = score of test of student for a course
+name = course name
+yoe = year of enrollement of student (september that year)

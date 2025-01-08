@@ -1,0 +1,275 @@
+crdts,dates,first_name,id_course,id_st,last_name,lst_scores,name,yoe
+2,2023-02-10,Youssef,107,1019,Jordan,14,SQL & Databases,2022
+2,2023-02-10,Brittney,107,1020,Davis,15,SQL & Databases,2022
+2,2023-02-10,Brittney,107,1020,Davis,13,SQL & Databases,2022
+2,2023-02-10,Alessia,107,1008,Wiley,10,SQL & Databases,2022
+2,2023-02-10,Youssef,107,1019,Jordan,10,SQL & Databases,2022
+2,2023-02-10,Phillip,107,1017,Crosby,12,SQL & Databases,2022
+2,2023-02-10,Eric,107,1002,Browning,11,SQL & Databases,2022
+2,2023-02-10,Arjan,107,1001,Marquez,13,SQL & Databases,2022
+2,2023-02-10,Francesca,107,1012,Mayo,11,SQL & Databases,2022
+2,2023-02-10,Tyrese,107,1011,Leonard,17,SQL & Databases,2022
+2,2023-02-10,Stephen,107,1009,Hardy,14,SQL & Databases,2022
+4,2023-02-12,Norma,105,1018,Gonzales,9,Machine Learning,2022
+4,2023-02-12,Tyrese,105,1011,Leonard,13,Machine Learning,2022
+4,2023-02-12,Brenda,105,1013,Morales,15,Machine Learning,2022
+4,2023-02-12,Youssef,105,1019,Jordan,13,Machine Learning,2022
+4,2023-02-12,Tyrese,105,1011,Leonard,17,Machine Learning,2022
+4,2023-02-12,Shivam,105,1006,Arnold,11,Machine Learning,2022
+4,2023-02-12,Francesca,105,1012,Mayo,13,Machine Learning,2022
+4,2023-02-12,Sofia,105,1016,Davies,11,Machine Learning,2022
+4,2023-02-12,Filip,105,1005,Hartman,13,Machine Learning,2022
+2,2023-02-15,Phillip,101,1017,Crosby,16,Mathematics,2022
+2,2023-02-15,Lilly,101,1004,Blair,11,Mathematics,2022
+2,2023-02-15,Filip,101,1005,Hartman,10,Mathematics,2022
+2,2023-02-15,Shivam,101,1006,Arnold,9,Mathematics,2022
+2,2023-02-15,Brogan,101,1003,Phelps,14,Mathematics,2022
+2,2023-02-15,Nikodem,101,1007,Bush,10,Mathematics,2022
+2,2023-02-15,Amie,101,1015,Fleming,13,Mathematics,2022
+2,2023-02-15,Xanthe,101,1014,Calderon,13,Mathematics,2022
+2,2023-02-15,Norma,101,1018,Gonzales,16,Mathematics,2022
+2,2023-02-15,Norma,101,1018,Gonzales,14,Mathematics,2022
+2,2023-02-15,Arjan,101,1001,Marquez,13,Mathematics,2022
+2,2023-02-15,Brenda,101,1013,Morales,9,Mathematics,2022
+2,2023-02-15,Stephen,101,1009,Hardy,14,Mathematics,2022
+2,2023-02-15,Arjan,101,1001,Marquez,8,Mathematics,2022
+2,2023-02-15,Juan,101,1010,Stevens,8,Mathematics,2022
+2,2023-02-16,Brenda,101,1013,Morales,9,Mathematics,2022
+2,2023-02-16,Brogan,101,1003,Phelps,12,Mathematics,2022
+2,2023-02-16,Stephen,101,1009,Hardy,13,Mathematics,2022
+2,2023-02-16,Amie,101,1015,Fleming,6,Mathematics,2022
+2,2023-02-16,Shivam,101,1006,Arnold,8,Mathematics,2022
+2,2023-02-16,Xanthe,101,1014,Calderon,12,Mathematics,2022
+2,2023-02-16,Norma,101,1018,Gonzales,14,Mathematics,2022
+2,2023-02-16,Lilly,101,1004,Blair,12,Mathematics,2022
+2,2023-02-16,Phillip,101,1017,Crosby,14,Mathematics,2022
+2,2023-02-16,Arjan,101,1001,Marquez,9,Mathematics,2022
+2,2023-02-16,Nikodem,101,1007,Bush,12,Mathematics,2022
+2,2023-02-16,Norma,101,1018,Gonzales,8,Mathematics,2022
+2,2023-02-16,Filip,101,1005,Hartman,18,Mathematics,2022
+2,2023-02-16,Arjan,101,1001,Marquez,10,Mathematics,2022
+2,2023-02-16,Juan,101,1010,Stevens,13,Mathematics,2022
+2,2023-02-20,Youssef,107,1019,Jordan,13,SQL & Databases,2022
+2,2023-02-20,Phillip,107,1017,Crosby,11,SQL & Databases,2022
+2,2023-02-20,Tyrese,107,1011,Leonard,9,SQL & Databases,2022
+2,2023-02-20,Francesca,107,1012,Mayo,15,SQL & Databases,2022
+2,2023-02-20,Brittney,107,1020,Davis,12,SQL & Databases,2022
+2,2023-02-20,Brittney,107,1020,Davis,10,SQL & Databases,2022
+2,2023-02-20,Youssef,107,1019,Jordan,14,SQL & Databases,2022
+2,2023-02-20,Arjan,107,1001,Marquez,12,SQL & Databases,2022
+2,2023-02-20,Stephen,107,1009,Hardy,11,SQL & Databases,2022
+2,2023-02-20,Alessia,107,1008,Wiley,12,SQL & Databases,2022
+2,2023-02-20,Eric,107,1002,Browning,12,SQL & Databases,2022
+2,2023-02-23,Brenda,101,1013,Morales,11,Mathematics,2022
+2,2023-02-23,Norma,101,1018,Gonzales,15,Mathematics,2022
+2,2023-02-23,Arjan,101,1001,Marquez,9,Mathematics,2022
+2,2023-02-23,Juan,101,1010,Stevens,10,Mathematics,2022
+2,2023-02-23,Phillip,101,1017,Crosby,8,Mathematics,2022
+2,2023-02-23,Nikodem,101,1007,Bush,9,Mathematics,2022
+2,2023-02-23,Xanthe,101,1014,Calderon,17,Mathematics,2022
+2,2023-02-23,Arjan,101,1001,Marquez,16,Mathematics,2022
+2,2023-02-23,Shivam,101,1006,Arnold,14,Mathematics,2022
+2,2023-02-23,Amie,101,1015,Fleming,16,Mathematics,2022
+2,2023-02-23,Filip,101,1005,Hartman,13,Mathematics,2022
+2,2023-02-23,Brogan,101,1003,Phelps,17,Mathematics,2022
+2,2023-02-23,Lilly,101,1004,Blair,15,Mathematics,2022
+2,2023-02-23,Stephen,101,1009,Hardy,7,Mathematics,2022
+2,2023-02-23,Norma,101,1018,Gonzales,14,Mathematics,2022
+2,2023-02-25,Eric,107,1002,Browning,16,SQL & Databases,2022
+2,2023-02-25,Alessia,107,1008,Wiley,13,SQL & Databases,2022
+2,2023-02-25,Youssef,107,1019,Jordan,11,SQL & Databases,2022
+2,2023-02-25,Phillip,107,1017,Crosby,10,SQL & Databases,2022
+2,2023-02-25,Brittney,107,1020,Davis,11,SQL & Databases,2022
+2,2023-02-25,Youssef,107,1019,Jordan,11,SQL & Databases,2022
+2,2023-02-25,Brittney,107,1020,Davis,11,SQL & Databases,2022
+2,2023-02-25,Francesca,107,1012,Mayo,9,SQL & Databases,2022
+2,2023-02-25,Tyrese,107,1011,Leonard,8,SQL & Databases,2022
+2,2023-02-25,Stephen,107,1009,Hardy,13,SQL & Databases,2022
+2,2023-02-25,Arjan,107,1001,Marquez,17,SQL & Databases,2022
+2,2023-03-12,Eric,107,1002,Browning,14,SQL & Databases,2022
+2,2023-03-12,Arjan,107,1001,Marquez,14,SQL & Databases,2022
+2,2023-03-12,Youssef,107,1019,Jordan,14,SQL & Databases,2022
+2,2023-03-12,Alessia,107,1008,Wiley,15,SQL & Databases,2022
+2,2023-03-12,Phillip,107,1017,Crosby,13,SQL & Databases,2022
+2,2023-03-12,Stephen,107,1009,Hardy,14,SQL & Databases,2022
+2,2023-03-12,Francesca,107,1012,Mayo,13,SQL & Databases,2022
+2,2023-03-12,Youssef,107,1019,Jordan,13,SQL & Databases,2022
+2,2023-03-12,Brittney,107,1020,Davis,11,SQL & Databases,2022
+2,2023-03-12,Tyrese,107,1011,Leonard,10,SQL & Databases,2022
+2,2023-03-12,Brittney,107,1020,Davis,13,SQL & Databases,2022
+4,2023-03-23,Eric,106,1002,Browning,13,PowerBI,2022
+4,2023-03-23,Filip,106,1005,Hartman,11,PowerBI,2022
+4,2023-03-23,Tyrese,106,1011,Leonard,6,PowerBI,2022
+4,2023-03-23,Amie,106,1015,Fleming,16,PowerBI,2022
+4,2023-03-23,Nikodem,106,1007,Bush,15,PowerBI,2022
+4,2023-03-23,Tyrese,106,1011,Leonard,9,PowerBI,2022
+4,2023-03-23,Nikodem,106,1007,Bush,10,PowerBI,2022
+4,2023-03-23,Xanthe,106,1014,Calderon,7,PowerBI,2022
+4,2023-03-23,Xanthe,106,1014,Calderon,13,PowerBI,2022
+4,2023-03-23,Juan,106,1010,Stevens,11,PowerBI,2022
+4,2023-03-23,Arjan,106,1001,Marquez,10,PowerBI,2022
+4,2023-03-23,Norma,106,1018,Gonzales,13,PowerBI,2022
+4,2023-03-23,Francesca,106,1012,Mayo,12,PowerBI,2022
+4,2023-03-23,Sofia,106,1016,Davies,8,PowerBI,2022
+2,2023-03-24,Brogan,101,1003,Phelps,15,Mathematics,2022
+2,2023-03-24,Norma,101,1018,Gonzales,12,Mathematics,2022
+2,2023-03-24,Lilly,101,1004,Blair,11,Mathematics,2022
+2,2023-03-24,Arjan,101,1001,Marquez,9,Mathematics,2022
+2,2023-03-24,Norma,101,1018,Gonzales,6,Mathematics,2022
+2,2023-03-24,Xanthe,101,1014,Calderon,12,Mathematics,2022
+2,2023-03-24,Arjan,101,1001,Marquez,9,Mathematics,2022
+2,2023-03-24,Filip,101,1005,Hartman,12,Mathematics,2022
+2,2023-03-24,Amie,101,1015,Fleming,11,Mathematics,2022
+2,2023-03-24,Juan,101,1010,Stevens,8,Mathematics,2022
+2,2023-03-24,Nikodem,101,1007,Bush,19,Mathematics,2022
+2,2023-03-24,Brenda,101,1013,Morales,12,Mathematics,2022
+2,2023-03-24,Stephen,101,1009,Hardy,16,Mathematics,2022
+2,2023-03-24,Shivam,101,1006,Arnold,7,Mathematics,2022
+2,2023-03-24,Phillip,101,1017,Crosby,16,Mathematics,2022
+4,2023-04-13,Eric,103,1002,Browning,13,Business Intelligence,2022
+4,2023-04-13,Shivam,103,1006,Arnold,5,Business Intelligence,2022
+4,2023-04-13,Phillip,103,1017,Crosby,13,Business Intelligence,2022
+4,2023-04-13,Alessia,103,1008,Wiley,9,Business Intelligence,2022
+4,2023-04-13,Eric,103,1002,Browning,13,Business Intelligence,2022
+4,2023-04-13,Filip,103,1005,Hartman,8,Business Intelligence,2022
+4,2023-04-13,Alessia,103,1008,Wiley,10,Business Intelligence,2022
+4,2023-04-13,Youssef,103,1019,Jordan,15,Business Intelligence,2022
+4,2023-04-13,Brenda,103,1013,Morales,6,Business Intelligence,2022
+4,2023-04-13,Brenda,103,1013,Morales,14,Business Intelligence,2022
+4,2023-04-13,Norma,103,1018,Gonzales,9,Business Intelligence,2022
+4,2023-04-13,Brittney,103,1020,Davis,12,Business Intelligence,2022
+2,2023-04-14,Phillip,104,1017,Crosby,11,Statistics,2022
+2,2023-04-14,Juan,104,1010,Stevens,18,Statistics,2022
+2,2023-04-14,Sofia,104,1016,Davies,15,Statistics,2022
+2,2023-04-14,Norma,104,1018,Gonzales,16,Statistics,2022
+2,2023-04-14,Francesca,104,1012,Mayo,12,Statistics,2022
+2,2023-04-14,Nikodem,104,1007,Bush,13,Statistics,2022
+2,2023-04-14,Arjan,104,1001,Marquez,13,Statistics,2022
+2,2023-04-14,Shivam,104,1006,Arnold,7,Statistics,2022
+2,2023-04-14,Brenda,104,1013,Morales,11,Statistics,2022
+2,2023-04-14,Lilly,104,1004,Blair,13,Statistics,2022
+2,2023-04-14,Brittney,104,1020,Davis,13,Statistics,2022
+2,2023-04-14,Lilly,104,1004,Blair,8,Statistics,2022
+2,2023-04-14,Brittney,104,1020,Davis,15,Statistics,2022
+2,2023-04-14,Filip,104,1005,Hartman,13,Statistics,2022
+4,2023-04-17,Arjan,106,1001,Marquez,4,PowerBI,2022
+4,2023-04-17,Tyrese,106,1011,Leonard,12,PowerBI,2022
+4,2023-04-17,Xanthe,106,1014,Calderon,6,PowerBI,2022
+4,2023-04-17,Nikodem,106,1007,Bush,7,PowerBI,2022
+4,2023-04-17,Eric,106,1002,Browning,11,PowerBI,2022
+4,2023-04-17,Francesca,106,1012,Mayo,10,PowerBI,2022
+4,2023-04-17,Juan,106,1010,Stevens,11,PowerBI,2022
+4,2023-04-17,Filip,106,1005,Hartman,14,PowerBI,2022
+4,2023-04-17,Norma,106,1018,Gonzales,19,PowerBI,2022
+4,2023-04-17,Xanthe,106,1014,Calderon,13,PowerBI,2022
+4,2023-04-17,Nikodem,106,1007,Bush,16,PowerBI,2022
+4,2023-04-17,Tyrese,106,1011,Leonard,13,PowerBI,2022
+4,2023-04-17,Amie,106,1015,Fleming,8,PowerBI,2022
+4,2023-04-17,Sofia,106,1016,Davies,15,PowerBI,2022
+2,2023-04-20,Lilly,101,1004,Blair,9,Mathematics,2022
+4,2023-04-20,Tyrese,105,1011,Leonard,9,Machine Learning,2022
+4,2023-04-20,Brenda,105,1013,Morales,13,Machine Learning,2022
+4,2023-04-20,Youssef,105,1019,Jordan,11,Machine Learning,2022
+2,2023-04-20,Phillip,101,1017,Crosby,8,Mathematics,2022
+2,2023-04-20,Brenda,101,1013,Morales,10,Mathematics,2022
+2,2023-04-20,Arjan,101,1001,Marquez,15,Mathematics,2022
+2,2023-04-20,Brogan,101,1003,Phelps,10,Mathematics,2022
+4,2023-04-20,Tyrese,105,1011,Leonard,16,Machine Learning,2022
+2,2023-04-20,Nikodem,101,1007,Bush,8,Mathematics,2022
+2,2023-04-20,Xanthe,101,1014,Calderon,11,Mathematics,2022
+2,2023-04-20,Juan,101,1010,Stevens,8,Mathematics,2022
+2,2023-04-20,Norma,101,1018,Gonzales,12,Mathematics,2022
+2,2023-04-20,Filip,101,1005,Hartman,13,Mathematics,2022
+4,2023-04-20,Sofia,105,1016,Davies,11,Machine Learning,2022
+4,2023-04-20,Filip,105,1005,Hartman,14,Machine Learning,2022
+4,2023-04-20,Francesca,105,1012,Mayo,11,Machine Learning,2022
+2,2023-04-20,Amie,101,1015,Fleming,12,Mathematics,2022
+2,2023-04-20,Norma,101,1018,Gonzales,11,Mathematics,2022
+2,2023-04-20,Shivam,101,1006,Arnold,11,Mathematics,2022
+4,2023-04-20,Shivam,105,1006,Arnold,9,Machine Learning,2022
+2,2023-04-20,Arjan,101,1001,Marquez,7,Mathematics,2022
+2,2023-04-20,Stephen,101,1009,Hardy,12,Mathematics,2022
+4,2023-04-20,Norma,105,1018,Gonzales,9,Machine Learning,2022
+4,2023-04-22,Sofia,106,1016,Davies,9,PowerBI,2022
+4,2023-04-22,Brenda,103,1013,Morales,14,Business Intelligence,2022
+4,2023-04-22,Alessia,103,1008,Wiley,6,Business Intelligence,2022
+4,2023-04-22,Brittney,103,1020,Davis,7,Business Intelligence,2022
+4,2023-04-22,Brenda,103,1013,Morales,9,Business Intelligence,2022
+4,2023-04-22,Norma,103,1018,Gonzales,8,Business Intelligence,2022
+4,2023-04-22,Norma,106,1018,Gonzales,9,PowerBI,2022
+4,2023-04-22,Francesca,106,1012,Mayo,13,PowerBI,2022
+4,2023-04-22,Youssef,103,1019,Jordan,12,Business Intelligence,2022
+4,2023-04-22,Xanthe,106,1014,Calderon,17,PowerBI,2022
+4,2023-04-22,Amie,106,1015,Fleming,5,PowerBI,2022
+4,2023-04-22,Filip,106,1005,Hartman,16,PowerBI,2022
+4,2023-04-22,Eric,106,1002,Browning,12,PowerBI,2022
+4,2023-04-22,Filip,103,1005,Hartman,13,Business Intelligence,2022
+4,2023-04-22,Tyrese,106,1011,Leonard,9,PowerBI,2022
+4,2023-04-22,Tyrese,106,1011,Leonard,13,PowerBI,2022
+4,2023-04-22,Arjan,106,1001,Marquez,10,PowerBI,2022
+4,2023-04-22,Shivam,103,1006,Arnold,16,Business Intelligence,2022
+4,2023-04-22,Eric,103,1002,Browning,11,Business Intelligence,2022
+4,2023-04-22,Eric,103,1002,Browning,8,Business Intelligence,2022
+4,2023-04-22,Phillip,103,1017,Crosby,13,Business Intelligence,2022
+4,2023-04-22,Alessia,103,1008,Wiley,9,Business Intelligence,2022
+4,2023-04-22,Nikodem,106,1007,Bush,9,PowerBI,2022
+4,2023-04-22,Xanthe,106,1014,Calderon,10,PowerBI,2022
+4,2023-04-22,Juan,106,1010,Stevens,19,PowerBI,2022
+4,2023-04-22,Nikodem,106,1007,Bush,10,PowerBI,2022
+4,2023-04-23,Shivam,105,1006,Arnold,9,Machine Learning,2022
+4,2023-04-23,Youssef,105,1019,Jordan,10,Machine Learning,2022
+4,2023-04-23,Sofia,105,1016,Davies,12,Machine Learning,2022
+4,2023-04-23,Tyrese,105,1011,Leonard,16,Machine Learning,2022
+4,2023-04-23,Filip,105,1005,Hartman,14,Machine Learning,2022
+4,2023-04-23,Tyrese,105,1011,Leonard,15,Machine Learning,2022
+4,2023-04-23,Brenda,105,1013,Morales,9,Machine Learning,2022
+4,2023-04-23,Francesca,105,1012,Mayo,13,Machine Learning,2022
+4,2023-04-23,Norma,105,1018,Gonzales,16,Machine Learning,2022
+2,2023-05-14,Brittney,107,1020,Davis,14,SQL & Databases,2022
+2,2023-05-14,Arjan,107,1001,Marquez,7,SQL & Databases,2022
+2,2023-05-14,Stephen,107,1009,Hardy,14,SQL & Databases,2022
+2,2023-05-14,Tyrese,107,1011,Leonard,9,SQL & Databases,2022
+2,2023-05-14,Phillip,107,1017,Crosby,11,SQL & Databases,2022
+2,2023-05-14,Francesca,107,1012,Mayo,9,SQL & Databases,2022
+2,2023-05-14,Youssef,107,1019,Jordan,15,SQL & Databases,2022
+2,2023-05-14,Eric,107,1002,Browning,10,SQL & Databases,2022
+2,2023-05-14,Alessia,107,1008,Wiley,11,SQL & Databases,2022
+2,2023-05-14,Youssef,107,1019,Jordan,10,SQL & Databases,2022
+2,2023-05-14,Brittney,107,1020,Davis,14,SQL & Databases,2022
+4,2023-05-16,Filip,106,1005,Hartman,10,PowerBI,2022
+4,2023-05-16,Xanthe,106,1014,Calderon,6,PowerBI,2022
+4,2023-05-16,Eric,106,1002,Browning,13,PowerBI,2022
+4,2023-05-16,Xanthe,106,1014,Calderon,15,PowerBI,2022
+4,2023-05-16,Tyrese,106,1011,Leonard,8,PowerBI,2022
+4,2023-05-16,Amie,106,1015,Fleming,11,PowerBI,2022
+4,2023-05-16,Juan,106,1010,Stevens,6,PowerBI,2022
+4,2023-05-16,Tyrese,106,1011,Leonard,13,PowerBI,2022
+4,2023-05-16,Nikodem,106,1007,Bush,12,PowerBI,2022
+4,2023-05-16,Sofia,106,1016,Davies,14,PowerBI,2022
+4,2023-05-16,Francesca,106,1012,Mayo,13,PowerBI,2022
+4,2023-05-16,Norma,106,1018,Gonzales,9,PowerBI,2022
+4,2023-05-16,Arjan,106,1001,Marquez,10,PowerBI,2022
+4,2023-05-16,Nikodem,106,1007,Bush,13,PowerBI,2022
+2,2023-05-18,Shivam,101,1006,Arnold,17,Mathematics,2022
+2,2023-05-18,Brogan,101,1003,Phelps,9,Mathematics,2022
+2,2023-05-18,Filip,101,1005,Hartman,20,Mathematics,2022
+2,2023-05-18,Amie,101,1015,Fleming,12,Mathematics,2022
+2,2023-05-18,Norma,101,1018,Gonzales,11,Mathematics,2022
+2,2023-05-18,Stephen,101,1009,Hardy,14,Mathematics,2022
+2,2023-05-18,Arjan,101,1001,Marquez,6,Mathematics,2022
+2,2023-05-18,Norma,101,1018,Gonzales,14,Mathematics,2022
+2,2023-05-18,Arjan,101,1001,Marquez,9,Mathematics,2022
+2,2023-05-18,Brenda,101,1013,Morales,11,Mathematics,2022
+2,2023-05-18,Phillip,101,1017,Crosby,19,Mathematics,2022
+2,2023-05-18,Xanthe,101,1014,Calderon,9,Mathematics,2022
+2,2023-05-18,Lilly,101,1004,Blair,17,Mathematics,2022
+2,2023-05-18,Nikodem,101,1007,Bush,11,Mathematics,2022
+2,2023-05-18,Juan,101,1010,Stevens,9,Mathematics,2022
+4,2023-05-27,Alessia,102,1008,Wiley,14,English,2022
+4,2023-05-27,Tyrese,102,1011,Leonard,12,English,2022
+4,2023-05-27,Arjan,102,1001,Marquez,17,English,2022
+4,2023-05-27,Shivam,102,1006,Arnold,10,English,2022
+4,2023-05-27,Brittney,102,1020,Davis,10,English,2022
+4,2023-05-27,Lilly,102,1004,Blair,13,English,2022
+4,2023-05-27,Youssef,102,1019,Jordan,12,English,2022
+4,2023-05-27,Alessia,102,1008,Wiley,13,English,2022
