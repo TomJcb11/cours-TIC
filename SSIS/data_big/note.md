@@ -1,6 +1,7 @@
 La  Business Inteligence a pour but de venir en aide comme un support à la prise de décision en fournissant des visuels, représentationsn etc ....
 On préfère des base de données staging cad des base de données un peu durable, cad pas une db qui change trop régulièrement
 
+Traditionellement on évite les jointures dans la représentation dimmentionelle. 
 
 # Q1)
 
@@ -9,17 +10,16 @@ des ‘faits’ et des ‘dimensions’, quelles sont les colonnes qui auraient 
 
 la/les tables de faits ? Quels faits? - la/les tables de dimensions ? Quelles dimensions?
 
-| fait  | dim         |
-| ----- | ----------- |
-| score | stu         |
-|       | cours<br /> |
+| fait  | dim   |
+| ----- | ----- |
+| score | stu   |
+|       | cours |
 
 table fait score lie l'id student à un id cours avec une valeur et une date
 
 table dim student lie un id student à ses informations comme son nom, prénom, mai s aussi son yoe
 
 table dimm cours qui lie l'id du cours son nom et ses crédits
-
 
 # Q2)
 
@@ -87,7 +87,6 @@ Songer à réaliser les seed dans des transaction comme  ca on peut toujours rol
 
 Donner quelques (>=3) questions business pour lesquel on sais répondre avec les
 données de ‘big table’. Quelles sont les requêtes SQL qui permettent d’y répondre ?
-
 
 * obtenir l'année d'inscription d'un élève à l'établissement
 

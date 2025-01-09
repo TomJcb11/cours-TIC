@@ -1,4 +1,4 @@
-exo bike store
+## Exo BikeStore
 
 création d'un schéma looping (on pourrait ajouter brand et catégorie dans product
 
@@ -7,6 +7,7 @@ création d'un schéma looping (on pourrait ajouter brand et catégorie dans pro
 looping nous donne le script de génération SQL suivant :
 
 ```sql
+
 USE DW_Bike_Store_DB;
 GO
 
@@ -112,5 +113,50 @@ CREATE TABLE FACT_Stocks__Production_(
 
 
     COMMIT;
-
 ```
+
+## Partie Chinook
+
+### Script pour se connecter en admin pour la db Chinook :
+
+```sql
+use master
+go 
+
+ALTER AUTHORIZATION ON DATABASE::Chinook TO [technofuturtic\t.jacob]
+```
+
+### Analyse du schéma :
+
+![1736347004776](image/note/1736347004776.png)
+
+Table DIMM Track:
+
+* on remplace genreId par GenreName
+* on remplace AlbumId par AlbumName
+* on ajoute ArtistName
+* pareil pour MediaType
+
+Table ACT PlaylistTrack:
+
+* On ajoute PlaylistName
+
+Table DIMM People:
+
+* On reprend toutes les informations des personnes comme :
+  * nom, prénom
+  * Phone, E-mail, Fax
+  * un identifiant de ligne
+* elle va pointer vers les tables Customer et Employee
+
+Table DIMM Date:
+
+on va créer une table date comme juste avant parce qu'on veut tous les jours
+et on y fera référence à chaque évenements
+
+Table ACT Invoice:
+
+on modifie invoice de la façon suivante:
+
+* on crée un id de ligne
+* on rappatrie le contenu de invoice line dedans
