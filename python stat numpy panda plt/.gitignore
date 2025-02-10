@@ -1,1 +1,8 @@
-/Exercices_Pandas_athlete_events/Exercices_Pandas_athlete_events.csv
+*.csv
+*.zip
+*.tsv
+/theorie/Théorie Pandas-20250206/heart.csv
+/theorie/Théorie Pandas-20250206/my_df.csv
+/theorie/théorie_démo/mycsv.csv
+/exercice/01_5_pandas_sakila/sakila.xlsx
+/exercice/02.pandas/assets/en.openfoodfacts.org.products.tsv

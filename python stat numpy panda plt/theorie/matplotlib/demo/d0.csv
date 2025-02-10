@@ -1,0 +1,18 @@
+Colonne,Type de Variable
+Âge,Quantitative Continue
+Revenu annuel,Quantitative Continue
+Nombre d'enfants,Quantitative Discrète
+Ville de résidence,Qualitative Nominale
+Température,Quantitative Continue
+Note d'examen,Quantitative Continue
+Statut marital,Qualitative Nominale
+Groupe sanguin,Qualitative Nominale
+Poids,Quantitative Continue
+Couleur des yeux,Qualitative Nominale
+Code postal,Qualitative Nominale
+Nombre de voitures,Quantitative Discrète
+Satisfaction du service,Qualitative Ordinale
+Nombre de visites à l'hôpital,Quantitative Discrète
+Durée d'appel téléphonique,Quantitative Continue
+Langue parlée,Qualitative Nominale
+État civil,Qualitative Nominale
