@@ -1,6 +1,8 @@
 *.csv
 *.zip
 *.tsv
+*.xls
+*.xlsx
 /theorie/Théorie Pandas-20250206/heart.csv
 /theorie/Théorie Pandas-20250206/my_df.csv
 /theorie/théorie_démo/mycsv.csv
