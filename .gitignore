@@ -18,5 +18,6 @@
 data_mining_ML/exercice/titanic/titanic3.xlsx
 /python stat numpy panda plt/.vscode
 /vscode/*.json
+/*/__pycache__
 /labo/fichiers excel
 /mongoDB/nosql-mongodb-main-mongodb/mongodb/datasets
