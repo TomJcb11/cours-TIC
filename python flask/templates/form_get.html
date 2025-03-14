@@ -1,0 +1,15 @@
+<html>
+
+<head>
+    <title>Flask GET Example</title>
+</head>
+
+<body>
+    <form method="get" action="{{ url_for('hello') }}">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
